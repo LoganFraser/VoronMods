@@ -1,4 +1,6 @@
 These are hinged 30 degree to flat cases for the BTT PiTFT43 LCD and Waveshare 4.3in DSI LCD screens.  
+https://www.biqu.equipment/products/bigtreetech-pi-tft43-v2-0-screen-board
+https://www.waveshare.com/4.3inch-dsi-lcd.htm
 
 The available files are in Fusion360, step, and stl (the hinge and rear brace are common to both displays) 
 
