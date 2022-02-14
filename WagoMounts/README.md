@@ -2,6 +2,6 @@ This is a simple angled mount for wago 221-41x blocks in sets of 3 that mount to
 
 ![Image of WagoMount](https://github.com/LoganFraser/VoronMods/blob/main/WagoMounts/WagoMounts.png)
 
-This is a simple mount for attaching wago 221-41x to extrusion: By power inlet and under bed.
+This is a simple mount for attaching wago 221-41x to extrusion: by power inlet and under bed, or to Din Rails, for smaller builds.
 
-![Image of WagoMounts4Extrusion](https://github.com/LoganFraser/VoronMods/blob/main/WagoMounts/WagoMounts4Extrusion.png)
+![Image of WagoMounts-Extrusion&Din](https://github.com/LoganFraser/VoronMods/blob/main/WagoMounts/WagoMounts-Extrusion&Din.png)
