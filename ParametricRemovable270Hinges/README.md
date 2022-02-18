@@ -2,3 +2,4 @@ This mod is for more advanced users with access to Fusion360 and requires parame
 
 Hinge angle, door thickness, foam thickness (if used), foam compression and use of a 3ID4OD ptfe tube as hinge material (or not). 
 
+https://github.com/LoganFraser/VoronMods/blob/main/ParametricRemovable270Hinges/F3DParameters.png
