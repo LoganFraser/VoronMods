@@ -1,3 +1,5 @@
+Thanks to Chris Gonzales for inspiration and design of his 270 degree parametric hinge design. You can use his door handles with my hinges. https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/chrisrgonzales/270_degree_hinge
+
 This mod is for more advanced users with access to Fusion360 and requires parameters set for your specific needs: 
 
 Hinge angle, door thickness, foam thickness (if used), foam compression and use of a 3ID4OD ptfe tube as hinge material (or not). 
