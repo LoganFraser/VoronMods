@@ -1,3 +1,5 @@
+![Image of ParametricRemovable270Hinges animation](https://github.com/LoganFraser/VoronMods/blob/main/ParametricRemovable270Hinges/Images/ParametricRemovable270Hinges.gif)
+
 Thanks to Chris Gonzales for inspiration from his 270 degree parametric hinge design. You can use his door handles with my hinges. I also matched his door hole locations so if you've already drilled your panels for his hinges you can change to mine.  
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/chrisrgonzales/270_degree_hinge
 
@@ -22,8 +24,6 @@ BOM (per hinge)
 2 - m3 5x4x3mm heat set insert (voron standard)
 
 2 - M3-10mm or 12mm (depending on panel thickness).  Can use flat head if you have them or flip the back plates over and use pan or socket heads. 
-
-![Image of ParametricRemovable270Hinges animation](https://github.com/LoganFraser/VoronMods/blob/main/ParametricRemovable270Hinges/Images/ParametricRemovable270Hinges.gif)
 
 ![Image of ParametricRemovable270Hinges](https://github.com/LoganFraser/VoronMods/blob/main/ParametricRemovable270Hinges/Images/ParametricRemovable270Hinges.png)
 
