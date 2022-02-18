@@ -1,4 +1,5 @@
-Thanks to Chris Gonzales for inspiration and design of his 270 degree parametric hinge design. You can use his door handles with my hinges. https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/chrisrgonzales/270_degree_hinge
+Thanks to Chris Gonzales for inspiration from his 270 degree parametric hinge design. You can use his door handles with my hinges. I also matched his door hole locations so if you've already drilled your panels for his hinges you can change to mine.  
+https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/chrisrgonzales/270_degree_hinge
 
 This mod is for more advanced users with access to Fusion360 and requires parameters set for your specific needs: 
 
