@@ -21,9 +21,15 @@ BOM (per hinge)
 
 1 - M3-30 or M3-35 socket head screw (if you use a M3-35 you'll need to back it out from fully inserted about 1mm)
 
+1 - m3-8mm socket head cap screw for hinge frame
+
+1 - m3 roll-in nut for hinge frame
+
 2 - m3 5x4x3mm heat set insert (voron standard)
 
 2 - M3-10mm or 12mm (depending on panel thickness).  Can use flat head if you have them or flip the back plates over and use pan or socket heads. 
+
+1 - 20mm piece of 3mm ID, 4mm OD PTFE tubing for inserting into the hole on hinge frame
 
 ![Image of ParametricRemovable270Hinges](https://github.com/LoganFraser/VoronMods/blob/main/ParametricRemovable270Hinges/Images/ParametricRemovable270Hinges.png)
 
