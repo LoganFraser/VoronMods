@@ -1,4 +1,4 @@
-# This is my top-access electronics bay mod for the Trident 
+# Trident Inverted Electronics Bay Mod
 (but can be used for the 2.4 as well with a hinged bed mod)
 
 # Major update to align with 2.4r2 fan mounts!  
