@@ -4,6 +4,8 @@
 # Major update to align with 2.4r2 fan mounts!  
 I've removed my own fan mounts and replaced with the V2 versions, coming to a Trident r2 near you sometime in the future, but why wait? This change meant I could remove the 1mm offset of the bottom plate and all parts required for that change, so stock bottom cover parts can be used now. The only parts that have changed in this revision so far are the r2 din rail support.stl but I've included all the 2.4r2 fan mount parts as an additional upgrade option, but only in the CAD files to keep the mod path simple. 
 
+You do not need custom panels!  The front Z stepper mounts have been modified to remove the captive part of the plate that locked the panel in place, so it can be just dropped in as shown in the animated gif below. 
+
 
 
 
