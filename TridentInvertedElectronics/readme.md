@@ -9,7 +9,7 @@ You do not need custom panels!  The front Z stepper mounts have been modified to
 
 
 
-
+![image of inverted electronics](InvertedElectronics.png)
 ![Image of PanelInstall](BottomPlateInstall.gif)
 
 Build of Materials:
