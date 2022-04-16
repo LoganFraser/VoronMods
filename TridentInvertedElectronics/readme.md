@@ -10,7 +10,7 @@ You do not need custom panels!  The front Z stepper mounts have been modified to
 
 
 
-![Image of PanelInstall](https://github.com/LoganFraser/VoronMods/blob/main/TridentInvertedElectronics/BottomPlateInstall.gif)
+![Image of PanelInstall](BottomPlateInstall.gif)
 
 Build of Materials:
 
