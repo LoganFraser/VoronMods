@@ -1,0 +1,1 @@
+This is a short set of recommendations and requirements for setting up klicky and calibrate_z scripts.
