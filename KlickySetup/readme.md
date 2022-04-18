@@ -16,14 +16,14 @@ The order of operations in your print_start should be as follows:
 gcode:
   G90 #set absolute positioning
   G28 #home all axis
-  Attach_Probe_Lock #prevent probe docking until unlocked https://github.com/jlas1/Klicky-Probe
-  Z_TILT_ADJUST #Trident *or* 
-  QUAD_GANTRY_LEVEL #V2.4
-  CLEAN_NOZZLE #requires brush/purge bucket and Decontaminator macros
+  Attach_Probe_Lock #prevent probe docking until unlocked, from klicky 
+  #Z_TILT_ADJUST #Trident *or* 
+  #QUAD_GANTRY_LEVEL #V2.4
+  CLEAN_NOZZLE #requires brush/purge bucket, from decontaminator
   G28 Z #rehome Z axis 
-  CALIBRATE_Z #automatic Z offset  
-  BED_MESH_PROFILE LOAD=default #load saved mesh *or*
-  BED_MESH_CALIBRATE #generate new mesh
+  CALIBRATE_Z #automatic Z offset, from klipper z calibration  
+  #BED_MESH_PROFILE LOAD=default #load saved mesh *or*
+  #BED_MESH_CALIBRATE #generate new mesh
   Dock_Probe_Unlock #removes probe lock
 ```
  You can add heatup/wait functions and additional nozzle cleaning/G28 Z if you wish but do them *before* Calibrate_Z.  
