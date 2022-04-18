@@ -58,7 +58,7 @@ gcode:
 3. Take your current Z value and edit **position_endstop** to match, but invert the value.  Eg Z0.34 = **position_endstop: -0.34**  *>>> Save & Restart*
 
 #### Ensure your calibrate_z is pressing the Z endstop switch on the switch body *next* to the trigger button, not the button itself. 
-1. If it's not, then set in **klicky-z-calibration.cfg**: **probe_switch_x** = **probe_nozzle_x** - 8, **probe_switch_y** = **probe_nozzle_y** - 20  (you have to do the math youself and enter the resulting values, not the subtractions) *>>> Save & Restart*
+1. If it's not, then jog the klicky switch until the body is over the Z Endstop (should be approximately X-8, Y-20 from **nozzle_xy_position** *>>> Save & Restart*
 
 #### Determine your **switch_offset** in **klicky-z-calibration.cfg**:
 1. Set your **switch_offset** to a small value like 0.3 *>>> Save & Restart*
