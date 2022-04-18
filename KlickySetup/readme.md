@@ -50,7 +50,7 @@ gcode:
   M106 S255 #set parts fan to full speed, helps circulate chamber air
   SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=110 #For ABS
  ``` 
-### Setting your switch_Offset in klicky-z-calibration.cfg 
+### Setting your switch_offset in klicky-z-calibration.cfg 
 
 #### Ensure your position_endstop is correct in printer.cfg
 1. Set your position_endstop to 0 >>> Save & Restart 
@@ -58,9 +58,9 @@ gcode:
 3. Take your current Z value and edit position_endstop to match, but invert the value.  Z0.34 = position_endstop: -0.34  >>> Save & Restart
 
 #### Ensure your calibrate_z is pressing the Z endstop switch on the switch body *next* to the trigger button, not the button itself. 
-1. If it's not, then set as follows: probe_switch_x = probe_nozzle_x - 8, probe_switch_y = probe_nozzle_y - 20  >>> Save & Restart
+1. If it's not, then set in klicky-z-calibration.cfg: probe_switch_x = probe_nozzle_x - 8, probe_switch_y = probe_nozzle_y - 20  >>> Save & Restart
 
-#### Determine your switch_offset:
+#### Determine your switch_offset in -klicky-z-calibration.cfg-:
 1. Set your switch_offset to a small value like 0.3 >>> Save & Restart
 2. run calibrate_z and take note of the z_offset value generated.  
 3. Again, move your nozzle to bed center and jog until you can touch a piece of paper. 
