@@ -5,7 +5,7 @@ This is a short set of recommendations and requirements for setting up klicky an
 3. You must not have clear_bed_mesh in your print_end script unless you also have print_start either loading or generating a new mesh each time. 
 
 The order of operations in your print_start should be as follows:
-
+```
 [gcode_macro PRINT_START]
 #   Use PRINT_START for the slicer starting script - PLEASE CUSTOMISE THE SCRIPT
 gcode:
@@ -16,9 +16,9 @@ gcode:
   QUAD_GANTRY_LEVEL #V2.4
   CLEAN_NOZZLE #requires brush/purge bucket and Decontaminator macros
   G28 Z #rehome Z axis 
-  CALIBRATE_Z #automatic Z offset, details [here]( https://github.com/protoloft/klipper_z_calibration)
+  CALIBRATE_Z #automatic Z offset  https://github.com/protoloft/klipper_z_calibration
   BED_MESH_PROFILE LOAD=default #load saved mesh *or*
   BED_MESH_CALIBRATE #generate new mesh
   Dock_Probe_Unlock #removes probe lock
-  
+```
   
