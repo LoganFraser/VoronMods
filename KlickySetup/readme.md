@@ -51,16 +51,19 @@ gcode:
   SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=110 #For ABS
  ``` 
 ### Setting your switch_Offset in klicky-z-calibration.cfg 
-1. Ensure your position_endstop is correct in printer.cfg
-  a. Set your position_endstop to 0 >>> Save & Restart 
-  b. Home XYZ and then move your nozzle to bed center, and jog until you touch a piece of paper.
-  c. Take your current Z value and edit position_endstop to match, but invert the value.  Z0.34 = position_endstop: -0.34  >>> Save & Restart
-2. Ensure your calibrate_z is pressing the Z endstop switch on the switch body *next* to the trigger button, not the button itself. 
-  a. If it's not, then set as follows: probe_switch_x = probe_nozzle_x - 8, probe_switch_y = probe_nozzle_y - 20  >>> Save & Restart
-3. Determine your switch_offset:
-  a. Set your switch_offset to a small value like 0.3 >>> Save & Restart
-  b. run calibrate_z and take note of the z_offset value generated.  
-  c. Again, move your nozzle to bed center and jog until you can touch a piece of paper. 
-  d. Take the current z value and add the inverse to your switch_offset value. Eg Z-0.21 is 0.3+0.21 = 0.51 >>> Save & Restart
-  e. run calibrate_z again and your z_offset value should be very close to zero. 
+
+#### Ensure your position_endstop is correct in printer.cfg
+1. Set your position_endstop to 0 >>> Save & Restart 
+2. Home XYZ and then move your nozzle to bed center, and jog until you touch a piece of paper.
+3. Take your current Z value and edit position_endstop to match, but invert the value.  Z0.34 = position_endstop: -0.34  >>> Save & Restart
+
+#### Ensure your calibrate_z is pressing the Z endstop switch on the switch body *next* to the trigger button, not the button itself. 
+1. If it's not, then set as follows: probe_switch_x = probe_nozzle_x - 8, probe_switch_y = probe_nozzle_y - 20  >>> Save & Restart
+
+#### Determine your switch_offset:
+1. Set your switch_offset to a small value like 0.3 >>> Save & Restart
+2. run calibrate_z and take note of the z_offset value generated.  
+3. Again, move your nozzle to bed center and jog until you can touch a piece of paper. 
+4. Take the current z value and add the inverse to your switch_offset value. Eg Z-0.21 is 0.3+0.21 = 0.51 >>> Save & Restart
+5. run calibrate_z again and your z_offset value should be very close to zero. 
  
