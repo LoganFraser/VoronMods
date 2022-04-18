@@ -11,7 +11,7 @@ https://github.com/protoloft/klipper_z_calibration
 3. You must not have clear_bed_mesh in your print_end script unless you also have print_start either loading or generating a new mesh each time. 
 4. For right side mounted buckets, you need to fix the decontaminator code as detailed here: https://github.com/VoronDesign/VoronUsers/issues/635
 
-### The order of operations in your print_start should be as follows:
+### Recommended Print_Start macro:
 ```
 [gcode_macro PRINT_START]
 #   Use PRINT_START for the slicer starting script
@@ -34,7 +34,7 @@ gcode:
 ```
  You can add heatup/wait functions and additional nozzle cleaning/G28 Z if you wish but do them *before* Calibrate_Z.  
 
-### I recommend using a manual Preheat macro as follows:
+### Recommended PREHEAT macro:
 ```
 [gcode_macro PREHEAT]
 gcode:
