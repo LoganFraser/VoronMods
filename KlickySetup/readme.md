@@ -16,6 +16,7 @@ The order of operations in your print_start should be as follows:
 gcode:
   G90 #set absolute positioning
   G28 #home all axis
+  
   Attach_Probe_Lock #prevent probe docking until unlocked, from klicky 
   #Z_TILT_ADJUST #Trident *or* 
   #QUAD_GANTRY_LEVEL #V2.4
@@ -27,3 +28,20 @@ gcode:
   Dock_Probe_Unlock #removes probe lock
 ```
  You can add heatup/wait functions and additional nozzle cleaning/G28 Z if you wish but do them *before* Calibrate_Z.  
+
+I recommend using a manual Preheat macro as follows:
+```
+[gcode_macro PREHEAT]
+gcode:
+  G90 #set absolute positioning
+  G28 #home all axis
+  ## Move hotend a sufficent distance from heated bed for heat soak
+  #--------------------------------------------------------------------
+  #G0 X125 Y125 Z50 F3600 ## Uncomment for 250mm build
+  #G0 X150 Y150 Z50 F3600 ## Uncomment for 300mm build
+  #G0 X175 Y175 Z50 F3600 ## Uncomment for 350mm build
+  #--------------------------------------------------------------------
+  M106 S255 #set parts fan to full speed, helps circulate chamber air
+  SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=110 #For ABS
+  
+  
