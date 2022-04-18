@@ -1,6 +1,7 @@
-This is a short set of recommendations and requirements for setting up klicky and calibrate_z scripts.
+##This is a short set of recommendations and requirements for setting up klicky and calibrate_z scripts.
 
-This uses the following 3 sets of macros: 
+###This uses the following 3 sets of macros: 
+
 https://github.com/jlas1/Klicky-Probe 
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber
 https://github.com/protoloft/klipper_z_calibration
@@ -9,7 +10,7 @@ https://github.com/protoloft/klipper_z_calibration
 2. You must not have load_gcode_state or G28 or G28 Z in your print_start macro *after* calibrate_z or it will overwrite your offset settings.
 3. You must not have clear_bed_mesh in your print_end script unless you also have print_start either loading or generating a new mesh each time. 
 
-The order of operations in your print_start should be as follows:
+###The order of operations in your print_start should be as follows:
 ```
 [gcode_macro PRINT_START]
 #   Use PRINT_START for the slicer starting script
@@ -32,7 +33,7 @@ gcode:
 ```
  You can add heatup/wait functions and additional nozzle cleaning/G28 Z if you wish but do them *before* Calibrate_Z.  
 
-I recommend using a manual Preheat macro as follows:
+###I recommend using a manual Preheat macro as follows:
 ```
 [gcode_macro PREHEAT]
 gcode:
