@@ -66,4 +66,4 @@ gcode:
 3. Again, move your nozzle to bed center and jog until you can touch a piece of paper. 
 4. Take the current z value and add the inverse to your **switch_offset** value. Eg Z-0.21 is 0.3+0.21 = **switch_offset: 0.51** *>>> Save & Restart*
 5. run **calibrate_z** again and your **z_offset** value should be very close to zero. 
- 
+6. Print the first layer of something small and adjust z_offset up or down until you get a good first layer, then save that adjustment amount to **switch_offset**. If you moved closer to the bed, increase the value.  *>>> Save & Restart* 
