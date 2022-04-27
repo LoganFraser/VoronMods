@@ -17,6 +17,7 @@ https://github.com/protoloft/klipper_z_calibration
 #   Use PRINT_START for the slicer starting script
 gcode:
   G90 #set absolute positioning
+  M107 #turn off parts fan
   G28 #home all axis
   
   Attach_Probe_Lock #prevent probe docking until unlocked, from klicky 
