@@ -2,7 +2,7 @@
 
 This is a method to mount the filament spool inside the enclosure of a Voron Trident 3d printer. It works with 200mm, 1kg spools only. 
 
-The ptfe tube is installed as shown: up through the gap in the side of the rear extrusion. 
+The ptfe tube is installed as shown: up through the gap in the side of the rear extrusion. Alternately you could drill a 4mm hole though the B stepper mount top and bottom parts. 
 
 ![Trident Installation](TI.jpg)
 
