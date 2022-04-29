@@ -1,1 +1,20 @@
+## Trident Internal Spool
+
+This is a method to mount the filament spool inside the enclosure of a Voron Trident 3d printer. It works with 200mm, 1kg spools only. 
+
+The ptfe tube is installed as shown: up through the gap in the side of the rear extrusion. 
+
+![Trident Installation](TI.jpg)
+
+To install the spool: Feed the filament through the ptfe first, then align the spool into the front and top bearing rings, and pull forward to spring the frame and drop into the rear bearing ring. 
+
+
+
+
+#### BOM:
+- 3 608 bearings (any type)
+- 2 M5-8mm pan head bolts
+- 2 M5-Tnuts
+- optional: 3 - M3-8mm bolts (any head type)
+
 ![Trident Internal Spool](TIS.png)
