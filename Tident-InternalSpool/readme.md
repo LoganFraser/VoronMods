@@ -1,1 +1,1 @@
-![Trident Internal Spool](/TIS.png)
+![Trident Internal Spool](TIS.png)
