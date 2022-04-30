@@ -5,6 +5,10 @@
 Update: Now uses 2 part bearing rings that clip together. Let me know if they work better/worse than the last ones if you've printed the single piece ones already. 
 Also added an external mount for non-Trident printers in STL and hidden in the CAD files. 
 
+Update 2: added external ring for non trident printers, has holes for M5 or M3 bolts, 8mm long. 
+
+![External Spool](ES.png)
+
 This is a method to mount the filament spool inside the enclosure of a Voron Trident 3d printer. It works with 200mm, 1kg spools only. 
 
 The ptfe tube is installed as shown: up through the gap in the side of the rear extrusion. Alternately you could drill a 4mm hole though the B stepper mount top and bottom parts. 
