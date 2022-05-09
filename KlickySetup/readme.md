@@ -6,7 +6,7 @@ https://github.com/jlas1/Klicky-Probe
 https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber
 https://github.com/protoloft/klipper_z_calibration
 
-1. You must enable and correctly set relative_reference_index under [bed mesh] section in printer.cfg. This is calculated by ((X sample points * Y sample points) -1) /2  EG for 5x5 grid, use 12, or for 7x7 grid, use 24.
+1. You must enable and correctly set relative_reference_index under [bed mesh] section in printer.cfg. This is calculated by ((X sample points * Y sample points) -1) /2  EG for 5x5 grid, use 12, or for 7x7 grid, use 24. ```relative_reference_index = 12```
 2. You must not have load_gcode_state or G28 or G28 Z in your print_start macro *after* calibrate_z or it will overwrite your offset settings.
 3. You must not have clear_bed_mesh in your print_end script unless you also have print_start either loading or generating a new mesh each time. 
 4. For right side mounted buckets, you need to fix the decontaminator code as detailed here: https://github.com/VoronDesign/VoronUsers/issues/635
