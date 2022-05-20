@@ -19,9 +19,10 @@ As this progresses, I'll be adding a replacement XY and YZ board so this can be 
 * 1 - 100ohm resistor (smd 0805 or 1/4W barrel)
 * 2 - Molex Microfit 90 surface mount (or 1, if using JST-XH for thermistor)
 
-#### Optional:
+#### Optional for Fan PCB (instead of soldering direct):
 * 2 - 4 pin/1 row dupont 90 pins (either include 5V or 24V, not both)
 * 1 - 3 pin/1 row dupont 90 pins (for fan pcb, instead of soldering)
-
+* 2 - 2 or 4 pin dupont connector for Fans
+* 1 - 3 pin dupont connector for LEDs
 
 
