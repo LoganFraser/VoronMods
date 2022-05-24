@@ -5,7 +5,7 @@ This is an early peek at the 2part PCB for SB/CW2 for FFC cables, using jst-xh s
 
 As this progresses, I'll be adding a replacement XY and YZ board so this can be an entirely self-sourced option. 
 
-#### Update:  I have uploaded EasyEDA PCB and Gerber files.  These are for testing only, if you decide to get some made, thoroughly test all signal/voltage paths before installing. 
+#### Update:  I have uploaded EasyEDA PCB and Gerber files.  These are for testing only, if you decide to get some made, thoroughly test all signal/voltage paths before installing. Currently upladed are breakout boards that connect via EXP1 for easier wiring, and two part toolhead boards for FFC and Molex Microfit.
 
 
 ![FFC PCBs](ffc-pcbs.png)
