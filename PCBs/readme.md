@@ -3,9 +3,12 @@
 This is an early peek at the 2part PCB for SB/CW2 for FFC cables, using jst-xh sockets, and a matching electronics breakout board, using 2 2x5 ribbon cables to connect.
 24V and HE0 need to be connected from the YZ board to the controller using larger (22-24AWG) wires, as the 28awg typical in ribbon cables isn't sufficient. 
 
-As this progresses, I'll be adding a replacement XY and YZ board so this can be an entirely self-sourced option. 
+As this progresses, I'll be adding a replacement XY board so this can be an entirely self-sourced option. 
 
-#### Update:  I have uploaded EasyEDA PCB and Gerber files.  These are for testing only, if you decide to get some made, thoroughly test all signal/voltage paths before installing. Currently upladed are breakout boards that connect via EXP1 for easier wiring, and two part toolhead boards for FFC and Molex Microfit.
+#### Update:  I have uploaded EasyEDA PCB and Gerber files.  These are for testing only, if you decide to get some made, thoroughly test all signal/voltage paths before installing. Currently uploaded:
+* Breakout boards for FFC and Molex Microfit that connect via EXP1 for easier wiring 
+* Two part toolhead boards for FFC and Molex Microfit
+* FFC YZ PCB for attaching to the rear right part of the frame.  
 
 
 ![FFC PCBs](ffc-pcbs.png)
