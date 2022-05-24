@@ -5,7 +5,8 @@ This is an early peek at the 2part PCB for SB/CW2 for FFC cables, using jst-xh s
 
 As this progresses, I'll be adding a replacement XY and YZ board so this can be an entirely self-sourced option. 
 
-I have a set of boards ordered and once I confirm they work as expected I'll be uploading the gerber files (and easyEDA sch/pcb files) for people to order their own.
+#### Update:  I have uploaded EasyEDA PCB and Gerber files.  These are for testing only, if you decide to get some made, thoroughly test all signal/voltage paths before installing. 
+
 
 ![FFC PCBs](ffc-pcbs.png)
 
