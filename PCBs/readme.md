@@ -1,4 +1,6 @@
-# 2 Part PCB with FFC for Stealthburner/CW2
+# 2 Part PCB with FFC for Stealthburner/CW2, and Assorted other PCBs
+
+Special thanks to K. Hart for supplying the Stealthburner 2PT PCB source files for modification, and helping me with questions.  :) 
 
 This is an early peek at the 2part PCB for SB/CW2 for FFC cables, using jst-xh sockets, and a matching electronics breakout board, using 2 2x5 ribbon cables to connect.
 24V and HE0 need to be connected from the YZ board to the controller using larger (22-24AWG) wires, as the 28awg typical in ribbon cables isn't sufficient. 
